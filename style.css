@@ -1,0 +1,11 @@
+div {
+    width: 100px;
+    height: 100px;
+    background:lightblue;
+    position: relative;
+    margin: 20px auto;
+    font-size: 15px;
+  }
+div::before {
+    content:'ini pesanku';
+}
