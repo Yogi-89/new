@@ -1,11 +1,66 @@
-div {
-    width: 100px;
-    height: 100px;
-    background:lightblue;
-    position: relative;
-    margin: 20px auto;
-    font-size: 15px;
-  }
-div::before {
-    content:'ini pesanku';
+body{
+  margin:0;
+  padding: 0;
+  font-family: arial, sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.card{
+  /* justify-content: center; */
+  margin: auto;
+  margin-bottom: 10rem;
+}
+
+/* Rule akan diterapkan pada elemen header yang berada tepat setelah elemen img */
+img ~ p {
+  color: red;
+  background-color: aqua;
+}
+
+
+/* code di bawah ini tidak dapat di gunakan karena terbungkus tag lain */
+p ~ a{
+  background-color: lightblue;
+}
+/* --------------------------------- */
+
+p ~ ul {
+  background-color: blanchedalmond;
+}
+
+h1 + p {
+  /* Aturan gaya untuk elemen <p> yang berada tepat setelah <h1> */
+  color: blue;
+}
+.rectangle {
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  position: relative;
+  background-color: antiquewhite;
+  margin: auto;
+}
+/* div::before {
+  content: '';
+  border:1px solid rgb(197, 78, 78);
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 1rem;
+  top: 2rem;
+  background-color: blue;
+} */
+
+.btn ,
+#special {
+  color:white;
+}
+
+a, #special {
+  position: relative;
+  margin: 30 auto;
 }
