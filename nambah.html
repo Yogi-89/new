@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Complex Navbar</title>
     <link rel="stylesheet" href="gaya.css">
 </head>
@@ -15,10 +17,10 @@
                 <a href="mbuh.html">Logo</a>
             </div>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
+                <li><a href="mbuh.html">kasar</a></li>
+                <li><a href="nambah.html">percobaan_1</a></li>
+                <li><a href="pertama.html">percobaan_2</a></li>
+                <!-- <li><a href="#">Home</a></li> -->
             </ul>
         </div>
     </nav>
@@ -28,11 +30,14 @@
             <h1>Hallo World</h1>
             <p>Sama seperti pseudo-class, pseudo-element merupakan sebuah elemen “semu” yang sebenarnya ada, tetapi
                 tidak tampak secara tertulis pada berkas HTML. Selector ini biasa digunakan ketika kita ingin
-                menambahkan konten tepat sebelum dan setelah sebuah elemen paragraf. Yup, kita tidak perlu menuliskan
+                menambahkan konten tepat sebelum dan setelah sebuah elemen paragraf. Yup, kita tidak perlu
+                menuliskan
                 elemen/konten baru pada berka</p>
             <p>Untuk menggunakan pseudo-element, kita gunakan dua buah tanda titik dua (::) dan diikuti dengan nama
-                pseudo-element-nya. Sebenarnya, kita bisa menggunakan sebuah karakter titik dua saja (:). Namun, kita
-                perlu membedakannya dengan pseudo-class sehingga sebaiknya ketika menggunakan pseudo-element gunakanlah
+                pseudo-element-nya. Sebenarnya, kita bisa menggunakan sebuah karakter titik dua saja (:). Namun,
+                kita
+                perlu membedakannya dengan pseudo-class sehingga sebaiknya ketika menggunakan pseudo-element
+                gunakanlah
                 dua buah titik dua (::).</p>
         </div>
     </div>
@@ -41,11 +46,11 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-links">
-                    <ul>
+                    <!-- <ul>
                         <li><a href="#">Layanan kesehata</a></li>
                         <li><a href="#">makanan sehat</a></li>
                         <li><a href="#">hubungi saja</a></li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
             <div class="footer-social">
@@ -55,6 +60,13 @@
             </div>
         </div>
     </footer>
+    <script>
+        // Toggle sidebar saat tombol dengan id "menu-toggle" diklik
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
 </body>
 
 </html>

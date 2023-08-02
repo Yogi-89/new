@@ -8,6 +8,11 @@ body{
   padding: 0;
 }
 
+.container {
+  width: 300px !important;
+  height: 500px;
+}
+
 .card{
   /* justify-content: center; */
   margin: auto;
@@ -35,15 +40,6 @@ h1 + p {
   /* Aturan gaya untuk elemen <p> yang berada tepat setelah <h1> */
   color: blue;
 }
-.rectangle {
-  border: 1px solid black;
-  width: 500px;
-  height: 500px;
-  border-radius: 10px;
-  position: relative;
-  background-color: antiquewhite;
-  margin: auto;
-}
 /* div::before {
   content: '';
   border:1px solid rgb(197, 78, 78);
@@ -63,4 +59,20 @@ h1 + p {
 a, #special {
   position: relative;
   margin: 30 auto;
+}
+
+.rectangle {
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  position: relative;
+  background-color: antiquewhite;
+  margin: auto;
+}
+
+/*img[src*="jpg"] ==  atribut selector untuk memilih elemen <img> dengan atribut src yang berisi teks "jpg". Tanda * adalah atribut src harus memiliki teks "jpg" tidak peduli di mana "jpg" tersebut berada dalam teks.  */
+
+img[src*="jpg"] {
+  max-width: none!important;
 }
