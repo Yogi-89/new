@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h5{
+  text-align: center;
+}
+
+.box {
+  border: 2px solid black;
+  width: 30%;
+  overflow: scroll;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  
+}
+ 
+pre {
+  padding: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  
+}
+
+.box.center{
+  width: 500px;
+  margin: 20px auto;
+  float: none;
+  padding: 70px;
+  margin-top: -1px;
+  margin-inline-start: 20px;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.custom-class {
+  width: 1300px;
+  margin: auto;
+  height: 100px;
+  background-color: #00695C;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+width: 300px;
+border: 2px solid #00695C;
+color: #00695C;
+background-color: white;
+margin-top: 15px;
+margin-right: 10px;
+margin-bottom: 15px;
+font-weight: bold;
+position: relative;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+  border: 3px solid black;
+  animation:  1.5ms;
+  position: relative;
+}
+
+.footer {
+  width: 1300px;
+  margin: auto;
+  height: 100px;
+  background-color: #00695C;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  position: static;
+}
+
+.content {
+  float: left;
+  width: 200px; /* Atur lebar konten sesuai kebutuhan */
+  margin-right: 10px; /* Jarak antar konten horizontal */
+}
+
+
+.table {
+  width: 80%;
+  margin: auto ;
+}
+
+a:hover {
+  /* color: red; Warna teks tautan saat di-hover */
+  text-decoration: underline; /* Menambahkan garis bawah saat tautan di-hover */
+  text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.table-container {
+  margin: 30px auto;
+  width: 99%;
+  background-color: #fff;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 15px 15px 15px;
+  margin: auto;
+}
+
+tr {
+  opacity: 80%;
+}
+
+th, td {
+  padding: 12px 20px;
+  text-align: left;
+}
+
+thead {
+  background-color: #009688;
+  color: white;
+}
+
+th {
+  border-bottom: 2px solid #ddd;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  /* border-right: 1px solid #ddd; */
+}
+
+/* thead:hover {
+ background-color: #00695C;
+ color: black;
+ border: 2px solid black;
+} */
+
+tbody > tr:hover {
+  background-color: #E0E0E0;
+  opacity: 100%;
+}
+
+
+
