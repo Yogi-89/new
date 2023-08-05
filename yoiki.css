@@ -1,0 +1,224 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+.container {
+    width: 90%; 
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Efek shadow, nilai RGBA menentukan tingkat transparansi */
+  
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+li>a {
+    color: black;
+    display: inline;
+
+
+}
+
+img {
+    max-width:60%;
+    height: 20%;
+    margin: auto;
+}
+
+div>h1 {
+    /* text-align: center; */
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar {
+    background-color: rgba(51, 51, 51, 0.3);
+    padding: 20px;
+    position: relative;
+    top: 242px;
+}
+
+.navbar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: white;
+    position: relative;
+}
+/* .navbar-list::after {
+    content:'ini isinya';
+    color: white;
+    opacity: 100%;
+} */
+
+.navbar-item {
+    margin-right: 10%;
+    color: white;
+}
+
+.navbar-item:last-child {
+    margin-right: 0;
+    /* Menghilangkan margin kanan pada item terakhir */
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: white;
+    /* Warna teks link */
+}
+
+.navbar-item a:hover {
+    color: black
+    /* Warna teks link saat dihover */
+}
+/* ------------------------ */
+.banner {
+    /* background-image: url('path/to/your/image.jpg');  */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Sesuaikan tinggi banner sesuai kebutuhan */
+    position: relative;
+  }
+  
+  .banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #03A9F4;
+    color: white; /* Warna teks overlay */
+    padding: 20px;
+  }
+  
+  .banner-overlay h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .banner-overlay p {
+    font-size: 18px;
+    max-width: 700px;
+    text-align: center;
+  }
+  #judul {
+    color:#03A9F4;
+    font-size: 30px;
+    font-family: arial;
+  }
+
+  footer{
+    background-color: #03A9F4;
+    color: white;
+    padding: 20px;
+  }
+  footer>p{
+    font-size: 20px;
+  }
+  .container1{
+    background-color:white;   width: 90%; 
+    margin: 30px auto;
+    color: white;
+    padding: 20px;
+    background-color:#03A9F4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
+
+    .container1 > #judul1 {
+        content: 'ini konten';
+    }
+
+    .berita {
+    background-color:white;  ; 
+    margin: 30px auto;
+    width: 50;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
+    /* ------------------------ */
+
+    .container-berita {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.news {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.news img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto 10px;
+  object-fit: cover;
+}
+
+.news h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.news p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.news a {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.news a:hover {
+  text-decoration: underline;
+}
+
+section{
+    max-width: 70%;
+    margin: 20px auto;
+}
